@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/Basic-fancyBox-Gallery-v2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
@@ -23,8 +25,8 @@
                 <ul
                     class="nav navbar-nav ml-auto">
                     <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="projects-with-sidebar.html">Design</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="projects-no-images.html">Projects</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="design.html">Design</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link active" href="gallery.html">Gallery</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="cv.html">CV</a></li>
                     </ul>
@@ -36,21 +38,48 @@
         <div class="container">
             <div class="intro">
                 <h2 class="text-center">Gallery</h2>
-                <p class="text-center">Here are some finished artworks, ranging from recently to a few years back</p>
+                <p class="text-center">Here are my traditional works, done in a range of oil, acrylic, watercolor, inks, and of course, my beloved mixed-media</p>
             </div>
             <div class="row photos">
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/desk.jpg"><img class="img-fluid" src="assets/img/goldlininglm.jpg"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/building.jpg"><img class="img-fluid" src="assets/img/IMG_5865.JPG.jpg"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/loft.jpg"><img class="img-fluid" src="assets/img/IMG_5361.JPG.jpg"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/building.jpg"><img class="img-fluid" src="assets/img/img1.png"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/loft.jpg"><img class="img-fluid" src="assets/img/IMG_3209.jpg"></a></div>
-                <div class="col"><img class="img-fluid" src="assets/img/impression.jpg"></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/desk.jpg"><img class="img-fluid" src="assets/img/IMG_9970.JPG.1.jpg"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/desk.jpg"><img class="img-fluid" src="assets/img/IMG_9972.JPG.jpg" style="width: 215px;height: 128px;"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/desk.jpg"><img class="img-fluid" src="assets/img/IMG_9981.PNG.jpg" style="padding-top: 32px;"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/desk.jpg"><img class="img-fluid" src="assets/img/IMG_9982.png"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/desk.jpg"><img class="img-fluid" src="assets/img/IMG_9983.JPG.png" style="padding-top: 38px;"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/goldlininglm.jpg"><img class="img-fluid" src="assets/img/goldlininglm.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/IMG_5865.JPG.jpg"><img class="img-fluid" src="assets/img/IMG_5865.JPG.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/IMG_5361.JPG.jpg"><img class="img-fluid" src="assets/img/IMG_5361.JPG.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/img1.png"><img class="img-fluid" src="assets/img/img1.png"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/IMG_3209.jpg"><img class="img-fluid" src="assets/img/IMG_3209.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/impression.jpg"><img class="img-fluid" src="assets/img/impression.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/IMG_9970.JPG.1.jpg"><img class="img-fluid" src="assets/img/IMG_9970.JPG.1.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/IMG_9972.JPG.jpg"><img class="img-fluid" src="assets/img/IMG_9972.JPG.jpg" style="width: 215px;height: 128px;"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/IMG_9981.PNG.jpg"><img class="img-fluid" src="assets/img/IMG_9981.PNG.jpg" style="padding-top: 32px;"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/IMG_9982.png"><img class="img-fluid" src="assets/img/IMG_9982.png"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/IMG_9983.JPG.png"><img class="img-fluid" src="assets/img/IMG_9983.JPG.png" style="padding-top: 38px;"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/IMG_9088.JPG"><img class="img-fluid" src="assets/img/IMG_9088.JPG" style="padding-top: 38px;"></a></div>
                 <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/desk.jpg"></a></div>
+            </div>
+        </div>
+    </div>
+    <div class="photo-gallery">
+        <div class="container">
+            <div class="intro">
+                <p class="text-center">Here are my digital works! Done on Procreate with an iPad Pro. Much less elegant, as I just started 3 months ago</p>
+            </div>
+            <div class="row photos">
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/Untitled_Artwork%205.png"><img class="img-fluid" src="assets/img/Untitled_Artwork%205.png"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/Untitled_Artwork%204.png"><img class="img-fluid" src="assets/img/Untitled_Artwork%204.png"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/Untitled_Artwork%202.png"><img class="img-fluid" src="assets/img/Untitled_Artwork%202.png"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/Untitled_Artwork%206.png"><img class="img-fluid" src="assets/img/Untitled_Artwork%206.png"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/loft.jpg"></a></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="intro">
+                <p class="text-center">And some sketchbook pages, just for fun</p>
+            </div>
+            <div class="row photos">
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/IMG_6524.jpg"><img class="img-fluid" src="assets/img/IMG_6524.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/IMG_4562.jpg"><img class="img-fluid" src="assets/img/IMG_4562.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/IMG_6517.jpg"><img class="img-fluid" src="assets/img/IMG_6517.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/IMG_4563.jpg"><img class="img-fluid" src="assets/img/IMG_4563.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/IMG_5452.jpg"><img class="img-fluid" src="assets/img/IMG_5452.jpg"></a></div>
             </div>
         </div>
     </div>
@@ -62,6 +91,7 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-animation.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
