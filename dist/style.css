@@ -3,7 +3,7 @@ body {
   height: 50vh;
   display: grid;
   justify-content: left;
-  align-content: center;
+  align-content: left;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-weight: 300;
   color: aliceblue;
