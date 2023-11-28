@@ -21,6 +21,7 @@ body {
     font-family: Helvetica, sans-serif;
     font-size: 44px;
     font-weight: 600;
+    text-align: left;
 }
 
 #im46:focus {
@@ -28,6 +29,7 @@ body {
     font-weight: 700;
     font-size: 44px;
     letter-spacing: 3px;
+    text-align: left;
 }
 
 #i74g {
@@ -35,6 +37,7 @@ body {
     font-family: Helvetica, sans-serif;
     font-size: 44px;
     font-weight: 300;
+    text-align: left;
 }
 
 #i74g:focus {
@@ -42,6 +45,7 @@ body {
     font-weight: 700;
     font-size: 44px;
     letter-spacing: 3px;
+    text-align: left;
 }
 
 #if3qde {
